@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="Herança e Planejamento Patrimonial"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Herança é o conjunto de bens, direitos e obrigações, que uma pessoa falecida deixa aos seus sucessores." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="O planejamento patrimonial e sucessório é uma ferramenta que está à disposição do empresário para proteger o seu patrimônio de riscos — familiares ou empresariais — que podem afetar o seu negócio. É preciso, no entanto, ter cuidado na construção do planejamento. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Herança tem função social por proteger e perpetuar a família, garantir o pleno desenvolvimento dos indivíduos, efetivar para depois da morte do autor da herança o princípio da solidariedade, garantindo o pressuposto da dignidade da pessoa humana, por preencher o direito de propriedade individual e por conter importantes reflexos econômicos." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O planejamento patrimonial é indispensável aos que desejam proteger seu patrimônio contra eventualidades que possam surgir ao longo do tempo, bem como obter uma melhor administração e manutenção deste. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O testamento: É um documento que pode ser elaborado pelo testador ou uma pessoa de sua confiança, e deve ser assinado por três testemunhas. É um tipo simples e seguro, mas, após a morte do testador, o testamento deve ser confirmado por um juiz, bem como, as assinaturas precisam ser comprovadas pelas testemunhas;" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="A doação: A doação de bens em vida pode envolver tanto bens móveis quanto imóveis. A regra geral para doação de bens é que 50% desse patrimônio deve ser reservado aos herdeiros necessários/legítimos, que consistem, exclusivamente, em ascendentes (pais, avós, bisavós), descendentes (filhos, netos, bisnetos) e cônjuge;   " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="A holding: A holding patrimonial tem como objetivo antecipar a herança aos herdeiros e cônjuge, ou facilitar a administração do patrimônio familiar. Nesse modelo, a holding assume a gestão dos bens, proporcionando à família uma forma legal de reduzir a carga tributária em transações como locação e venda de imóveis;" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="A previdência privada: É um tipo de investimento de longo prazo, que tem como característica garantir uma renda após um determinado período de contribuição. Também é chama de previdência complementar, pois serve como complemento à previdência pública do INSS (Instituto Nacional do Seguro Social); " />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Organize suas finanças. Não pode haver um planejamento patrimonial competente sem que suas contas estejam organizadas. " />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Defina seus objetivos; " />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Faça investimentos; " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Contrate um planejador financeiro;  " />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Pense na sucessão familiar; " />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Segundo a lei, os herdeiros necessários só podem ser excluídos da relação de herdeiros em casos muito graves e específicos. Como se agredirem, abandonarem ou atentarem contra a vida do proprietário dos bens. Filhos condenados por matarem seus pais, por exemplo, perdem o seu direito de herança;" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Comece o planejamento o quanto antes possível;   " />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Registre todos os instrumentos que for utilizar, documentando tudo;   " />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Tenha bem definidos em mente seus beneficiários;" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Envolvam os familiares no planejamento, evitando conflitos e divergências; " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

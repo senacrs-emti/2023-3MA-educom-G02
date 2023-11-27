@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="Planejamento Financeiro de longo prazo"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="São considerados de longo prazo os objetivos que deverão se concretizar em 3 ou 5 anos, mas não necessariamente possuem um prazo máximo. " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Com o planejamento financeiro de longo prazo, é possível ter um maior controle sobre seus gastos e receitas, evitando dívidas desnecessárias e mantendo as contas em dia. Ao fazer um registro de gastos e elaborar um orçamento mensal, é possível identificar para onde vão os recursos e onde é possível economizar. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Pessoal: O planejamento Pessoal Financeiro significa administrar de maneira eficiente os gastos, saldar dívidas, fazer uma popança periodicamente e, por fim, investir de maneira correta os recursos poupados;" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Familiar: Sendo uma projeção de gastos e receitas de uma família. O objetivo é buscar uma organização financeira que permita entender bem o orçamento mensal da família e como ele pode ser usado para melhorar a situação econômica de todos;" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Empresarial: É um conjunto de ações, controles e ferramentas destinados a compreender, organizar e gerenciar os recursos financeiros de uma empresa para produzir melhores resultados. Essas ações envolvem a previsão de receitas, despesas e cenários com uma variedade de ferramentas; " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Estabeleça suas metas e objetivos  " />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="O primeiro passo para o planejamento de longo prazo é estabelecer o que se deseja alcançar através dele. Tenha objetivos claros em sua mente, pois isso é o que lhe fará tomar as ações necessárias para concretizá-los. " />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Sente-se em um lugar confortável, pegue uma caneta e um papel e se pergunte: O que desejo alcançar daqui a três anos? E daqui a cinco? Anote as respostas no papel e coloque-as como metas em sua vida. " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Coloque prazos" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Já sabendo o que se deseja alcançar, é hora de estabelecer os prazos corretos para cada objetivo.  Assentar bem os prazos é o que traz senso de direção e ajuda a não desviar do caminho." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Os prazos também são importantes para o estabelecimento do valor a ser economizado por mês. " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Revise sua renda e suas despesas" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Tenha controle do quanto você ganha e do quanto gasta. Uma dica é manter uma planilha de gestão de gastos. Nela, você irá registrar absolutamente todas as vezes que abriu a carteira, conta de luz e água, mercado, um lanche na rua, o importante é nunca esquecer de anotar nada. Dessa forma, você conseguirá visualizar com clareza para onde está indo seu dinheiro, ficando mais fácil de identificar os lugares onde é possível economizar.  " />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Escolha como vai guardar o dinheiro poupado" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="É importante que você escolha como irá guardar o dinheiro que está economizando." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Estude e invista em uma aplicação que pague juros e proteja o seu dinheiro da inflação. A poupança só é boa opção para guardar valores por pouco tempo, pois ela não se classifica como investimento, já que possui rendimento muito baixo. " />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não anotar todos os gastos. O ideal é anotar todos os gastos, até os mais supérfluos." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Deixar de organizar uma reserva emergencial. " />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não avaliar o desempenho." />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ignorar pequenas despesas." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Trabalhar sem metas." />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Fazer o planejamento de forma manual. " />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

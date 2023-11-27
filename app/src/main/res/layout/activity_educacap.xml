@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="Educação Financeira Pessoal: "
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Educação financeira é o processo em que um indivíduo busca ou obtém conhecimento para lidar com o dinheiro de forma mais consciente e inteligente. " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="A educação financeira é essencial para quem busca valorizar o seu trabalho e ter mais tranquilidade em relação ao orçamento. Afinal, é preciso se dedicar diariamente para ganhar dinheiro. Então é comum não querer desperdiçá-lo ao deixar o salário parado ou gastar no que não é necessário. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Educação financeira pessoal: É o processo em que um indivíduo busca ou obtém conhecimento para lidar com o dinheiro de forma mais consciente e inteligente. A ideia é que o aprendizado seja convertido em práticas que levem a um uso mais comedido dos recursos financeiros, fazendo também com que ele leve à prosperidade;  " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Educação financeira familiar: A educação financeira familiar engloba estudos sobre a manipulação das finanças. Geralmente, essa tarefa é responsabilidade de um dos pais, mas a integração de todos os membros traz benefícios à família. Ela é importante para o relacionamento e a estruturação da casa;" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Educação financeira empresarial: A educação financeira é voltada a conscientizar sobre a importância do planejamento, para que o cidadão possa desenvolver uma relação equilibrada com o dinheiro e tomar decisões acertadas sobre finanças e consumo;" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Educação financeira nas escolas: A expansão de iniciativas de educação financeira voltadas à infância pode preparar os jovens brasileiros para um futuro mais equilibrado, com finanças estáveis e menor índice de endividamento; " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Estabeleça metas financeiras claras" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Definir objetivos financeiros claros e realistas é essencial para o sucesso do seu negócio. Pense no curto, médio e longo prazo, e estabeleça metas específicas — como aumentar a receita em um determinado período ou diminuir despesas fixas.  " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Separe as finanças pessoais das empresariais" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Evite misturar suas finanças pessoais com as da empresa. Ter contas bancárias separadas e fazer um planejamento específico para cada área é fundamental para manter o controle e a saúde financeira do negócio." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Crie e siga um orçamento" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Elaborar um orçamento detalhado permite visualizar claramente as receitas e despesas, facilitando o controle e a tomada de decisões financeiras. Acompanhe seu orçamento regularmente e faça ajustes conforme necessário." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Invista em um curso de educação financeira" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="A capacitação é fundamental para desenvolver habilidades financeiras e tomar decisões mais assertivas. Um curso de educação financeira pode ajudá-lo a entender conceitos importantes e aplicá-los no dia a dia do seu negócio.  " />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Aprenda a analisar e interpretar informações financeiras  " />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Desenvolver habilidades para analisar e interpretar informações financeiras, como balanços e demonstrativos de resultados, é fundamental para compreender a saúde da empresa e tomar decisões bem fundamentadas." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Tenha um planejamento de longo prazo" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O planejamento financeiro de longo prazo permite traçar estratégias de crescimento e investimentos para a empresa. Estabeleça metas e faça revisões periódicas para garantir que seu negócio esteja no caminho certo." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Controle o seu fluxo de caixa" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O fluxo de caixa é uma ferramenta essencial para gerenciar as finanças do seu negócio. Monitore as entradas e saídas de dinheiro, e mantenha o controle sobre suas contas a pagar e receber." />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Mantenha a disciplina financeira" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ser disciplinado com as finanças é crucial para o sucesso do seu negócio. Evite gastos desnecessários e mantenha-se focado nos objetivos financeiros estabelecidos.   " />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Utilize a tecnologia a seu favor   " />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Adote ferramentas e softwares de gestão financeira para otimizar processos, reduzir erros e facilitar o acompanhamento das finanças do seu negócio.   " />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Busque a orientação de um profissional   " />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Quando necessário, consulte profissionais especializados, como contadores e consultores financeiros, para obter orientações e suporte na gestão das finanças do seu negócio." />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Investir em educação financeira é fundamental para o sucesso e crescimento do seu negócio. Afinal, essa é uma habilidade indispensável para qualquer empresário que deseja ter sucesso." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ao investir tempo e esforço no aprendizado e na aplicação de conceitos e estratégias financeiras sólidas, você estará criando uma base sólida para a sustentabilidade e o crescimento do seu negócio. " />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Lembre-se de que a chave para o sucesso financeiro é a constante busca por conhecimento e a aplicação prática das lições aprendidas, tanto na vida pessoal quanto empresarial." />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ao adotar os princípios e dicas apresentadas neste artigo, você estará dando um passo importante na direção de uma gestão financeira eficiente e responsável, garantindo um futuro mais próspero e seguro para sua empresa e sua vida pessoal. " />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="A educação financeira é muito mais do que uma atitude ou um planejamento financeiro, é uma combinação de ações para cortar gastos, investir, acumular riqueza e multiplicar ganhos." />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ao tornar essa combinação de ações um hábito, você estará formando o seu patrimônio sólido." />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Mesmo sem saber, você pode estar cometendo alguns erros em relação à educação financeira." />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Pensando nisso, separamos os sete maiores erros que são cometidos por falta de educação financeira." />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Comprar parcelado preocupando-se somente com o valor da parcela " />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Um dos erros mais comuns quando compramos de forma parcelada é observarmos apenas se o valor da parcela cabe no nosso orçamento mensal, sem sabermos a quantidade de juros que estaremos pagando até o final.  " />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Para sabermos realmente se o negócio é bom para ambas as partes, calcule o valor da parcela vezes a quantidade de parcelas que terá que pagar. Dessa forma, saberá qual valor de juros estará pagando, e se é a melhor forma de adquirir o produto ou serviço." />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Importante: programe o valor da parcela em seu orçamento. Não atrase o pagamento, pois acarreta juros e multa. Não faça uma nova compra sem ter a certeza de que irá honrar todos seus compromissos mensais. Não comprometa seu orçamento mensal." />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não pesquisar preços" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Antes de fazer uma compra que envolva uma certa quantia, faça uma pesquisa de preços. Procure sempre pesquisar de duas a três opções para comparar valores. Se for comprar na internet, calcule o valor do frete junto com o preço do produto para saber se realmente vale a pena." />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Gastar demais sem ter um objetivo definido" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Outro erro comum que cometemos por não sabermos o que queremos. Quando não estabeleço prioridades e objetivos fico sem nada para me guiar. Pergunte-se: o que você quer para sua vida? O que você quer alcançar? Quais são seus sonhos e como pode atingi-los?" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não saber a hora de fazer cortes no orçamento" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Quando não temos o hábito de controlar nosso dinheiro, tanto as despesas como as receitas, ficam difícil de saber que cortes fazer e o melhor momento para isso. Portanto, revise sempre seus gastos. Você irá perceber que consegue fazer a maioria das coisas gastando menos, basta mudar a forma." />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Se você saía para jantar todo fim de semana, comece a fazer jantares em casa. Se você ia de carro para o trabalho, use a bicicleta que está escondida na garagem ou vá a pé. Diminua seu plano de internet, celular, TV por assinatura. Tome essas atitudes até que você consiga organizar novamente seu orçamento." />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não ter uma ferramenta de controle financeiro" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não ter controle financeiro do seu dinheiro é um dos piores erros cometidos. Existem várias ferramentas gratuitas de controle financeiro, desde planilhas no Excel a aplicativos para celular." />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="A ferramenta de controle financeiro nos dá a possibilidade de analisarmos o quanto ganhamos, nossas receitas, e para onde estão indo os valores, nossas despesas. Para mim dos 7 erros este é o mais grave. saber a hora de fazer cortes no orçamento" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Ir ao supermercado sem uma lista definida em casa" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Na maioria das vezes, quando vamos ao supermercado sem uma lista definida, acabamos comprando e gastando muito mais do que realmente precisávamos. Lembra do problema de não ter metas e objetivos definidos? Funciona da mesma forma nessa situação." />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Desperdiçar" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Evite o desperdício sempre. Desperdiçar quer dizer que você está colocando seu dinheiro no lixo. Reaproveite o que você já tem. Planeje e pense se o que você está querendo comprar é apenas um desejo passageiro ou uma real necessidade. Nesse caso, menos é mais. " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

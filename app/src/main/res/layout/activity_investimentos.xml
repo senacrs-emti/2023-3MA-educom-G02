@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="INVESTIMENTO"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Investimentos financeiro são quando você aplica dinheiro em ativos financeiros, ativos não-físicos e não-intangíveis que estabelecem uma relação contratual entre o investidor e uma instituição por uma riqueza ou privilégio de receber um valor corrigido por juros. " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Investir é o melhor caminho para os empreendedores aumentarem as suas chances de serem bem-sucedidos em suas atividades econômicas. Por meio dos investimentos, você pode aumentar as oportunidades do seu negócio prosperar, ampliando a infraestrutura ou comprando novas máquinas, equipamentos e tecnologias. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Ações de empresas: São títulos que representam uma fração do capital de uma empresa. Comprar uma ação, o tornará um sócio da companhia e pode receber dividendos e lucros;  " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Cotas de Fundos Imobiliário: O patrimônio dos imobiliários é dividido em cotas que o investidor adquire ao aplicar em uma dessas carteiras. O retorno, seja pela distribuição dos rendimentos, ou seja, pela valorização, é calculado proporcionalmente ao número de cotas que cada um possui;" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="ETFs: O Exchange Traded Fund (Fundo Negociado em Bolsa) é um fundo de investimento que tem como referência algum índice da bolsa de valores;" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Câmbio e criptomoedas: É a troca de reais por outra cripto. E uma vez com essa cripto, ela poderá ser trocada por qualquer outra moeda fiduciária, inclusive o próprio dólar ou mesmo por outros projetos de criptomoeda;" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Contratos futuros: É um tipo de específico de contrato derivado, de compra e venda de algum produto, como milho, de moeda estrangeira, como dólar, ou de índice. Os contratos no mercado futuro têm data de vencimento futura, mas seu preço é definido a mercado, pelo equilíbrio entre quem compra e quem vende;" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Contratos de derivativos: São negociações com base nos preços de outros ativos. Esses contratos são ativos financeiros, cujo valor resulta, integral ou parcialmente, do valor de outro ativo financeiro negociado no mercado à vista;" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Fundos de Investimento Multimercados: São fundos que investem em diversos mercados sem concentração de investimento em um único segmento e/ou setor. São uma alternativa para quem busca diversificar a carteira de forma prática, pois reúnem em um só produto vários tipos de ativos;  " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Fundos de Ações: São uma forma de investir em papéis de empresas na bolsa de valores por meio de um condomínio, formado por cotistas. Os fundos são uma boa oportunidade para pequenos investidores, que podem acessar o mercado de ações de maneira mais prática e diversificada; " />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Estabeleça os seus objetivos. Determine o valor que vai ser investido mensalmente e ajuste o orçamento. Descubra o seu perfil de investidor, estude sobre investimentos e defina uma carteira baseada nos objetivos e perfil. Abra uma conta em uma corretora. " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="100dp"
+                android:justificationMode="inter_word"
+                android:text="Não ter um perfil de risco. Não ter um objetivo de investimento. Não ter uma reserva de emergência. Não ter uma estratégia de investimento. Não diversificar os investimentos. Tomar decisões com emoção sem lógica. Fazer o que todo mundo está fazendo. " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
