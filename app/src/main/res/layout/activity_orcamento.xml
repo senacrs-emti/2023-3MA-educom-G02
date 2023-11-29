@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_orcamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="Orçamento e Controle de Gastos"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="O orçamento é um planejamento que ajuda a estimar despesas, ganhos e oportunidades de investimento em um período de tempo. Com ele é possível estabelecer objetivos, permitindo acompanhar seus resultados de perto e medi-los, se algo estiver fora do planejado, ele permite a fácil identificação e alteração do objetivo. agindo previamente caso algum imprevisto ocorra." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Com o orçamento a pessoa controla melhor seu dinheiro. Quanto gasta por mês, sua renda salarial e impostos, prestando mais atenção em como ele é utilizado. Essas informações ajudam a construir uma previsão orçamentária. Além de ajudá-lo a agir, com base nos seus objetivos, para a sua realização. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Orçamento Empresarial: Pensado para o período de um ano, mas pode servir para alguns meses. Esse tipo de orçamento permite um melhor detalhamento das projeções de despesas e receitas definidas.  Também é necessário fazer uma análise do movimento da empresa, objetivos do negócio e das perspectivas que o mercado reserva. Planejar o orçamento ajuda a preparar a empresa para uma melhora nos desafios e oportunidades. Assim como ajuda a prever a alocação de recursos e a correção de erros, gastando de mais estratégica." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Orçamento Pessoal: Considerando sua renda e seus gastos, o foco do orçamento pessoal é a relação do indivíduo com o dinheiro. Por depender do indivíduo para manter-se dentro das estimativas e prazos, tendo um comprometimento maior para ser feito. Mas requer um autocontrole maior, para que as metas sejam atingidas e os objetivos sejam realizados.   " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Orçamento Doméstico: Sendo relacionado aos gastos do ambiente doméstico e tudo para mantê-lo. Um dos aspectos principais é a alimentação, que é a maior parte dos gastos. A maior dificuldade é convencer os indivíduos a contribuírem na participação do planejamento. " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Orçamento Familiar: É um pouco mais amplo, sendo os objetivos a longo prazo que mobilizam toda a família. Podendo ser uma faculdade, viajem ou mudança. Como as rendas e os gastos se multiplicam, por contar todos os indivíduos da família, o controle ser torna complicado. Portanto manter a disciplina é essencial para que o todos possam contribuir. " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer: " />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Fazer um orçamento exige dedicação, um hábito importante é anotar tudo. Para facilitar, defina um momento específico para isso. Mantenha a simplicidade, detalhes podem ajudar, mas quanto mais complexo mais difícil de fazê-lo. Além disso, jamais ignore alguma etapa para definir os objetivos, pois elas agem como um norte a ser seguido. É possível que acabe com menos do que poderia ter alcançado, principalmente quando a meta não está definida. O orçamento oferece clareza de como andam as finanças, possibilitando que as metas sejam atingidas. " />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:  " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Não utilizar e considerar dados para efetuar projeções do orçamento: Analisar as tendencias do que já foi feito pode servir de parâmetro para a elaboração de um orçamento. Não os considerar pode ser um grave erro;" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Mapeamento impreciso dos produtos da empresa: Qual o produto que você está vendendo? Todos os produtos e subprodutos estão relacionados e precificado? A exatidão destas informações precisa também estar contida no orçamento de vendas, para impedir possíveis dúvidas por parte do cliente. Ter a máxima precisão nas informações básicas é essencial, para caso elas sejam solicitadas pelo consumidor; " />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Precificação incorreta ou imprecisa de seu produto/serviço: A exatidão é necessária no que diz respeito ao preço. Comissionamentos, descontos, acréscimos devem estar muito bem descritos na precificação. Imprecisão é um erro quase fatal quando se trata de precificação; " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="100dp"
+                android:justificationMode="inter_word"
+                android:text="Não se atentar ao mercado e à condição política/econômica do país: Ter realismo na precificação, maleabilidade de valores frente a quantidades maiores, a possível fidelizações de clientes, estar atento às dificuldades econômicas do país frente ao setor em que atua são fundamentais para um bom orçamento; ]" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

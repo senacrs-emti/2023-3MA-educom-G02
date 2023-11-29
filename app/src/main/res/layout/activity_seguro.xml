@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="Seguro"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="O seguro é um contrato pelo qual uma das partes se obriga, mediante cobrança de prêmio, a indenizar outra parte pela ocorrência de um determinado sinistro ou eventuais danos.   " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="A importância de ter um seguro é percebida em diferentes situações. Por exemplo, além de poupar dor de cabeça e prejuízos financeiros, a contratação de um seguro pode ser a base de algumas atividades empresariais, como o transporte de cargas.    " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro de vida: O seguro de vida tem como objetivo a proteção econômica e financeira do seguro e de sua família. Com ele, é possível manter o mesmo padrão de vida, mesmo nas horas mais difíceis;   " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro de morte acidental: É um tipo de seguro de vida que se destina a proteger as pessoas em diferentes situações. Desta forma, o titular assegura aos beneficiários o pagamento de uma indenização, caso ele sofra algum acidente que o leve à morte;" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro contra acidentes pessoais: Esse seguro tem como objetivo garantir a proteção financeira do seguro e seus benefícios por meio de indenização quando acontecem acidentes pessoais;" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro patrimonial: É uma modalidade de seguro destinada à pessoa física ou jurídica que pretende resguardar o patrimônio contra incidentes. Protege imóveis e mens móveis como eletrodomésticos e eletrônicos contra incêndio, vendaval e roubo;" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro automotivo: Seguro para carros, caminhões, motocicletas e outros veículos rodoviários. Seu uso principal é fornecer proteção financeira contra danos físicos ou lesões corporais resultantes de colisões de trânsito e contra responsabilidade que também possa surgir de incidentes em um veículo;" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro residencial: Seguro que garante a proteção de residência contra incêndio, vendaval, queda de raio, roubo, danos elétricos, desmoronamento e possíveis danos a terceiros, entre outros;" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro-viagem: Serve para minimizar problemas causados por imprevistos. Garantindo o pagamento de indenização ao segurado no caso desses imprevistos, desde que eles estejam cobertos e ocorram durante viagem nacional ou internacional;   " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Seguro empresarial: É um produto destinado a pessoas jurídicas. Tem por objetivo proteger um negócio contra perdas decorrentes de diferentes acontecimentos, como incêndios, eventos climáticos e danos causados a terceiros dentro de um estabelecimento; " />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Avaliação das necessidades: Conhecer suas necessidades de proteção. Essa é uma iniciativa que devesse tomar para aprimorar as expectativas;" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Cotação no mercado: Solicitar informações sobre os valores e condições da apólice que deseja. Nesse caos você informa à seguradora sobre o tipo de cobertura que precisa e fornece alguns dados para que eles possam fazer uma análise de risco" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Preenchimento do formulário de proposta: Preenchido pelo segurado no momento da solicitação do seguro. É preciso preencher informações sobre o risco que está segurando, como o custo da reconstrução da casa ou o tipo de carro que possui;" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Análise pela seguradora: A seguradora realizará uma análise e investigação para verificar a cobertura do evento de acordo com as condições estabelecidas na apólice. Caso sinistro seja considerado coberto, a seguradora providenciará a indenização ou a assistência de acordo com os termos do contrato;   ]" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Emissão da apólice: Apólice é um documento emitido pela empresa seguradora que concede o seguro para quem contratou o serviço. Por meio dela é possível comprovar que foi firmado um contrato entre ambas as partes;   " />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Utilização das coberturas: As coberturas têm como função principal a proteção das edificações, contra a ação das intempéries, atendendo as funções utilitárias, estéticas e econômicas" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Renovação do seguro: A renovação se dá quando o prazo determinado na apólice para a vigência do seguro chegue ao fim. É preciso ficar sempre atento a essa informação, que é de suma importância para que, em caso de sinistro, você possa ter cobertura;" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Cancelamento do seguro: A qualquer momento o segurado pode deixar o serviço. Vale ressaltar que esse pedido deve ser formal. O corretor registrará a solicitação de cancelamento e será gerado um documento informando sobre os termos. Após ser assinado e encaminhado a seguradora é que o contrato será encerrado; " />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O seguro auto não cobre. Itens com motoristas não habilitados, mau uso e situações extraordinárias — guerras, motins, greves, revoltas — não estão asseguradas pelo seguro auto. No caso de acessórios de carro, por exemplo, é válido adicionar essas coberturas no momento da contratação. " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

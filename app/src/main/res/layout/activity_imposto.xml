@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="IMPOSTO"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_oque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="O que é?" />
+
+            <TextView
+                android:id="@+id/txt_oque1"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Imposto é um tributo obrigatório cobrado pelo governo. Sendo um valor para custear despesas administrativas do Estado. Sem a sua cobrança, se torna difícil ao governo de entregar serviços - como saúde, educação, segurança, moradia e transporte, benefícios para a população. " />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="O imposto é dividido em três tipos: Impostos federais, estaduais e municipais. " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Cada imposto tem uma finalidade. O imposto de renda, por exemplo, financia saúde e educação, além de projetos sociais. Portanto o contribuinte recebe de volta atendimento de saúde pública e investimento na educação. " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Outro imposto conhecido é o IPVA, pago por quem possui veículos automotivos. Ele é destinado à manutenção das vias do município, além de estradas e pedágios estaduais. " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="O IPTU, pago por proprietários de imóveis ou terrenos, retorna na forma de investimento em obras sociais. " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Além disso, o dinheiro arrecadado serve para melhoria da iluminação pública, calçamentos e demais ações realizadas pelas prefeituras. A arrecadação do imposto é essencial para a máquina administrativa funcionar, pois ela é destinada ao pagamento do funcionalismo público. " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="De forma geral, eles incidem sobre três bases: o consumo, a renda e o patrimônio dos cidadãos e das empresas. " />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="314dp"
+                android:layout_marginTop="25dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Imposto de Renda de Pessoa Física (IRPF): O IRPF é um tributo cobrado anualmente pelo governo sobre os ganhos de todas as pessoas. Sendo pago de acordo com os rendimentos declarados pelos cidadãos à Receita Federal, órgão responsável pelo tributo.
+Seu funcionamento é conforme a renda do contribuinte, quanto maior a renda maior vai ser o valor cobrado. Para definir o valor que cada contribuinte irá pagar, a Receita Federal utiliza uma tabela com alíquotas a serem aplicadas de acordo com os rendimentos declarados por cada contribuinte;
+" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Imposto de Renda de Pessoa Jurídica (IRPJ): Tributo federal que deve ser pago por todas as empresas com CNPJ ativo, isentas apenas algumas exceções. Sua base de cálculo considera o regime tributário da pessoa jurídica e atribui a cada um uma alíquota para o cálculo;
+ " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Imposto de Importação (II): Imposto que incide sobre a importação de mercadorias estrangeiras e sobre a bagagem de viajante procedente do exterior. No caso de mercadorias estrangeiras, a base de cálculo é o valor aduaneiro, a alíquota está indicada na Tarifa Externa Comum (TEC). No caso da bagagem, a base de cálculo é o valor dos bens que ultrapassem a cota de isenção e a alíquota é de 50%;" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Imposto sobre Produtos Industrializados (IPI): Imposto sobre produtos fabricados em solo nacional, onde devem pagar determinada alíquota de acordo com a atividade da empresa fabricante;" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Imposto sobre Operações Financeiras (IOF): Imposto cobrado em taxas cambiais, de crédito e outras operações como títulos. Na prática, esse imposto acontece quando se é utilizado cartão de crédito, cheque especial, compra de dólar, enviar dinheiro para o exterior ou compra de um imóvel; " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Como Fazer:" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Há duas formas de pagar o imposto: Por Documento de Arrecadação de Receitas Federais (DARF), que pode ser emitido pelo próprio programa, pelo Centro Virtual de Atendimento ao Contribuinte (e-CAC) ou pelos aplicativos para celular e tablets usados para enviar a declaração. " />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="O que não fazer:" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="O crime de sonegação consiste no ato de deixar de declarar ou mentir para as autoridades fiscais, no intuito de não pagar ou pagar menos impostos;" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Alterar fatura ou documentos relacionados a operações comerciais;  " />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Alterar ou fraudar livros que são de apresentação obrigatória pelas leis fiscais;  " />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Aumentar as despesas para obter redução de impostos;  " />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:text="Fazer declaração falsa ou omitir informações necessárias para o cálculo dos impostos; " />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

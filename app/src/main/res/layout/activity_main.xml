@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="780dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_imposto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+
+                android:text="EducaFinaças"
+                android:textColor="#00BF63"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_pque"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Um aplicativo que vem com o intuito de ajudar pessoa com educação financeira." />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="O que é educação financeira?" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="313dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="A educação financeira é aprendizado e desenvolvimento de habilidades relacionadas ao manejo do dinheiro e das finanças pessoais. Ela tem como objetivo capacitar as pessoas a compreender os princípios financeiros, tomar decisões informadas e responsáveis sobre suas finanças e alcançar uma situação financeira mais saudável e estável." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Veja agora o conteúdo que preparamos para você sobre educação financeira. Separado por disciplina para você poder escolher por onde você pode  começar a estudar." />
+
+            <Button
+                android:id="@+id/btnIMPOSTO"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="IMPOSTO" />
+
+            <Button
+                android:id="@+id/btnORCAMENTO"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="ORÇAMENTO" />
+
+            <Button
+                android:id="@+id/btnDIVIDA"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="DÍVIDAS E CRÉDITO" />
+
+            <Button
+                android:id="@+id/btnSEGURO"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="SEGURO" />
+
+            <Button
+                android:id="@+id/btnEDUCACAO"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="EDUCAÇÃO FINANCEIRA PESSOAL" />
+
+            <Button
+                android:id="@+id/btnPLANEJAMENTO"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="PLANEJAMENTO DE LONGO PRAZO" />
+
+            <Button
+                android:id="@+id/btnPOUPANCA"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="POUPANÇA" />
+
+            <Button
+                android:id="@+id/btnINVESTIMENTOS"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="INVESTIMENTOS" />
+
+            <Button
+                android:id="@+id/btnETICA"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="ÉTICA FINANCEIRA" />
+
+            <Button
+                android:id="@+id/btnCOMPORTAMENTO"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="COMPORTAMENTO FINANCEIRO" />
+
+            <Button
+                android:id="@+id/btnHERANCA"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="HERANÇA " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
