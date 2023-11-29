@@ -1,4 +1,4 @@
-package com.example.educafinanasapp;
+package com.example.educafinancaapp;
 
 import org.junit.Test;
 

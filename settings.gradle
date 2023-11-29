@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EducaFinançasAPP"
+rootProject.name = "EducaFinancaAPP"
 include ':app'

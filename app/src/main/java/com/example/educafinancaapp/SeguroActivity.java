@@ -1,14 +1,14 @@
-package com.example.educafinanasapp;
+package com.example.educafinancaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class OrcamentoActivity extends AppCompatActivity {
+public class SeguroActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orcamento);
+        setContentView(R.layout.activity_seguro);
     }
 }
